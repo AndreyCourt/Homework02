@@ -23,6 +23,7 @@ header.main-header {
   margin: 30px 20px;
   border-bottom: 10px solid grey;
 }
-section.images div.container {
+
+section.images div.container img {
   margin-top: 20px;
 }
