@@ -3,22 +3,16 @@ body {
   height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 footer {
-  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
-
-#sticky-footer {
-  flex-shrink: none;
-}
 header.main-header {
   margin: 30px 20px;
   border-bottom: 10px solid grey;
@@ -26,8 +20,4 @@ header.main-header {
 
 section.images div.container img {
   margin-top: 20px;
-}
-
-nav.navbar {
-  min-height: 70px;
 }
