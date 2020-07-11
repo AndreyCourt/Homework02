@@ -27,3 +27,7 @@ header.main-header {
 section.images div.container img {
   margin-top: 20px;
 }
+
+nav.navbar {
+  min-height: 70px;
+}
