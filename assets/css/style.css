@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+header.main-header {
+  margin: 30px 20px;
+  border-bottom: 10px solid grey;
+}
+section.images div.container {
+  margin-top: 20px;
+}
